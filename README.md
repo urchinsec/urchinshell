@@ -1,5 +1,7 @@
 # urchinshell V1
 
+[![Made in Tanzania](https://img.shields.io/badge/made%20in-tanzania-008751.svg?style=flat-square)](https://github.com/Tanzania-Developers-Community/made-in-tanzania)
+
 ![Artboard 1urchindfinal <img src="param-ninja-logo.png" width="150"/>](https://user-images.githubusercontent.com/49201347/209619868-735cfa22-8110-4c86-943a-cdd13931c3aa.png)
 
 
